@@ -1,0 +1,131 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 2em 0;
+    max-width: 100%;
+}
+
+.block {
+    display: flex;
+    flex: 16;
+    background-color: var(--light_blue);
+    border-radius: 5em;
+    position: relative;
+    max-width: 90%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+    padding: 3em;
+}
+.infoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.text {
+    max-width: 60ch;
+}
+
+.img {
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    border-start-end-radius: 5em;
+    border-end-end-radius: 5em;
+}
+
+.badges {
+    display: flex;
+    gap: 1em;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    width: fit-content;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.title {
+    color: #000;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 20%;
+    width: clamp(75px, 15%, 150px);
+}
+
+.right,
+.left {
+    flex: 1;
+    background-color: var(--light_blue);
+}
+
+.right {
+    border-radius: 5em 0 0 5em;
+}
+
+.left {
+    border-radius: 0 5em 5em 0;
+}
+
+@media (max-width: 900px) {
+    .right,
+    .left {
+        display: none;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .block {
+        background: linear-gradient(
+                rgb(231, 250, 254, 0.7),
+                rgb(231, 250, 254, 0.7)
+            ),
+            url("@assets/images/feature.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .like {
+        position: static;
+        transform: none;
+    }
+
+    .text {
+        color: #000;
+    }
+
+    .info {
+        gap: 1em;
+        text-align: center;
+        align-items: center;
+    }
+
+    .bottom {
+        width: 100%;
+    }
+}

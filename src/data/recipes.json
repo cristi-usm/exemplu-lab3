@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Big and Juicy Wagyu Beef Cheeseburger",
+        "image": "/src/assets/recipes/Img1.png",
+        "type": "Snack",
+        "liked": true
+    },
+    {
+        "id": 2,
+        "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+        "image": "/src/assets/recipes/Img2.png",
+        "type": "Fish",
+        "liked": false
+    },
+    {
+        "id": 3,
+        "title": "Strawberry Oatmeal Pancake with Honey Syrup",
+        "image": "/src/assets/recipes/Img3.png",
+        "type": "Breakfast",
+        "liked": false
+    },
+    {
+        "id": 4,
+        "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+        "image": "/src/assets/recipes/Img4.png",
+        "type": "Healthy",
+        "liked": true
+    },
+    {
+        "id": 6,
+        "title": "Chicken Meatballs with Cream Cheese",
+        "image": "/src/assets/recipes/Img5.png",
+        "type": "Sweet",
+        "liked": false
+    },
+    {
+        "id": 7,
+        "title": "Fruity Pancake with Orange & Blueberry",
+        "image": "/src/assets/recipes/Img6.png",
+        "type": "Sweet",
+        "liked": true
+    },
+    {
+        "id": 8,
+        "title": "The Best Easy One Pot Chicken and Rice",
+        "image": "/src/assets/recipes/Img7.png",
+        "type": "Snack",
+        "liked": false
+    },
+    {
+        "id": 9,
+        "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+        "image": "/src/assets/recipes/Img8.png",
+        "type": "Noodles",
+        "liked": false
+    }
+]

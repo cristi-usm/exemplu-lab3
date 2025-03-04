@@ -1,0 +1,117 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1em;
+    height: 100%;
+
+    * {
+        color: #000;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.5em;
+}
+
+.profile {
+    display: flex;
+    gap: 0.5em;
+}
+
+.profileImg {
+    width: 3em;
+    height: 3em;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2em;
+}
+
+.name {
+    display: flex;
+    gap: 0.5em;
+}
+
+.checkmark {
+    width: 1em;
+    height: fit-content;
+}
+
+.points {
+    display: flex;
+    gap: 0.2em;
+    height: fit-content;
+}
+
+.circle {
+    background-color: #000;
+    border-radius: 50%;
+    width: 0.2em;
+    height: 0.2em;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.indicator {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0.5em;
+    background-color: #fff;
+    height: 100%;
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+.actions {
+    display: flex;
+    gap: 3em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left,
+.right {
+    display: flex;
+    gap: 1em;
+}
+
+.center {
+    margin-right: auto;
+}
+
+.liked {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.date {
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: auto;
+}

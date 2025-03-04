@@ -1,0 +1,57 @@
+.inbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    position: relative;
+    margin: 4em;
+    padding-inline: 4em;
+    background-color: var(--light_blue);
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 1em 3em;
+    background-color: #fff;
+    border-radius: 60px;
+    margin-block-end: 4em;
+    z-index: 2;
+
+    input {
+        all: unset;
+    }
+}
+
+.image {
+    max-width: 70%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+@media (max-width: 768px) {
+    .inbox {
+        margin: 2em;
+        padding-inline: 2em;
+    }
+
+    .form {
+        padding: 1em;
+    }
+
+    .image {
+        max-width: 40%;
+    }
+}

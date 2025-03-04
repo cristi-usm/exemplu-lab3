@@ -1,0 +1,57 @@
+.header {
+    color: #000;
+    text-align: center;
+    margin-block: 1em;
+}
+
+.contactForm {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-inline: 16em;
+}
+
+.image {
+    flex: 1;
+    min-width: 280px;
+    width: 100%;
+    background: linear-gradient(#fff, var(--light_blue));
+}
+
+.form {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 60px 60px 1fr;
+    gap: 1rem;
+
+    div:nth-last-child(2) {
+        grid-column: span 2;
+    }
+}
+
+.buttonContainer {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .contactForm {
+        margin-inline: 1em;
+    }
+
+    .form {
+        width: 90%;
+    }
+    .image {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-inline: 1em;
+    }
+}

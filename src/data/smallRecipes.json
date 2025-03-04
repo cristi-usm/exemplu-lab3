@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Chicken Meatball with Creamy Chees...",
+        "image": "/src/assets/smallRecipes/SmallImg1.png"
+    },
+    {
+        "id": 2,
+        "title": "The Creamiest Creamy Chicken an...",
+        "image": "/src/assets/smallRecipes/SmallImg2.png"
+    },
+    {
+        "id": 3,
+        "title": "The Best Easy One Pot Chicken and Rice",
+        "image": "/src/assets/smallRecipes/SmallImg3.png"
+    }
+]

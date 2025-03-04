@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 2em;
+}
+
+.title {
+    color: #000;
+    font-size: 2em;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2em;
+    margin-inline: 6em;
+}
+
+@media (max-width: 900px) {
+    .recipes {
+        margin-inline: 2em;
+    }
+}

@@ -1,0 +1,28 @@
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: 40%;
+    margin-block: 3em;
+    margin-inline: auto;
+    padding: 1rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+}
+.input {
+    all: unset;
+    flex: 1;
+}
+
+@media (max-width: 950px) {
+    .searchbar {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 350px) {
+    .searchbar {
+        max-width: 90%;
+        flex-direction: column;
+    }
+}

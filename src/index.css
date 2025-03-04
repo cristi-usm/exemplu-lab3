@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    color: rgba(0, 0, 0, 0.6);
+
+    --light_blue: #e7fafe;
+    --light_orange: #ff7967;
+    --dark_orange: #ff4b2b;
+
+    --page__margin: 2rem;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 10px;
+    }
+}

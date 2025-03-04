@@ -1,0 +1,1 @@
+export { SmallRecipeArticle } from "./SmallRecipeArticle";

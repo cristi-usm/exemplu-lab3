@@ -1,0 +1,28 @@
+.block {
+    display: flex;
+    width: fit-content;
+    gap: 0.5em;
+}
+
+.image {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.name {
+    color: #000;
+}
+
+@media (max-width: 700px) {
+    .image {
+        max-width: 30px;
+        max-height: 30px;
+    }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "image": "/src/assets/articles/cover/ArticlesImg1.png",
+        "title": "Crochet Projects for Noodle Lovers",
+        "authorName": "Wade Warren",
+        "authorPhoto": "/src/assets/articles/authors/ArticlesAuthorImg1.png",
+        "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "date": "12 November 2021"
+    },
+    {
+        "id": 2,
+        "image": "/src/assets/articles/cover/ArticlesImg2.png",
+        "title": "10 Vegetarian Recipes To Eat This Month",
+        "authorName": "Robert Fox",
+        "authorPhoto": "/src/assets/articles/authors/ArticlesAuthorImg2.png",
+        "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "date": "12 November 2021"
+    },
+    {
+        "id": 3,
+        "image": "/src/assets/articles/cover/ArticlesImg3.png",
+        "title": "Full Guide to Becoming a Professional Chef",
+        "authorName": "Dianne Russell",
+        "authorPhoto": "/src/assets/articles/authors/ArticlesAuthorImg3.png",
+        "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "date": "12 November 2021"
+    },
+    {
+        "id": 4,
+        "image": "/src/assets/articles/cover/ArticlesImg4.png",
+        "title": "Simple & Delicious Vegetarian Lasagna",
+        "authorName": "Leslie Alexander",
+        "authorPhoto": "/src/assets/articles/authors/ArticlesAuthorImg4.png",
+        "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "date": "12 November 2021"
+    },
+    {
+        "id": 5,
+        "image": "/src/assets/articles/cover/ArticlesImg5.png",
+        "title": "Plantain and Pinto Stew with Aji Verde",
+        "authorName": "Courtney Henry",
+        "authorPhoto": "/src/assets/articles/authors/ArticlesAuthorImg5.png",
+        "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "date": "12 November 2021"
+    },
+    {
+        "id": 6,
+        "image": "/src/assets/articles/cover/ArticlesImg6.png",
+        "title": "We’re Hiring a Communications Assistant!",
+        "authorName": "Albert Flores",
+        "authorPhoto": "/src/assets/articles/authors/ArticlesAuthorImg6.png",
+        "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+        "date": "12 November 2021"
+    }
+]

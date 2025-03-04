@@ -1,0 +1,35 @@
+.directions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 10em;
+    margin-block: 2em;
+    gap: 1em;
+
+    p {
+        margin-block-start: 1em;
+        max-width: 80ch;
+    }
+}
+
+.title {
+    color: #000;
+}
+
+.image {
+    margin-block-start: 1em;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1240px) {
+    .directions {
+        margin-inline: 4em;
+    }
+}
+
+@media (max-width: 900px) {
+    .directions {
+        margin-inline: 2em;
+    }
+}
