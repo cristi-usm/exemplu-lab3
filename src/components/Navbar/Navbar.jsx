@@ -1,5 +1,4 @@
 import styles from "./Navbar.module.css";
-// import { useRouter } from "@hooks/useRouter";
 import Foodieland from "@assets/Foodieland.svg";
 import facebookLogo from "@assets/facebook.svg";
 import instagramLogo from "@assets/instagram.svg";
@@ -7,8 +6,6 @@ import twitterLogo from "@assets/twitter.svg";
 import { Link } from "@components/navigation/Link";
 
 export function Navbar() {
-    // const { navigate } = useRouter();
-
     return (
         <nav className={styles.navbar}>
             <img

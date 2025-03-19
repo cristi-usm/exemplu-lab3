@@ -3,8 +3,7 @@ import { MainRecipe } from "@components/MainRecipe";
 import { RecipeInstructions } from "@components/RecipeInstructions";
 import { Directions } from "@/components/Directions";
 
-function RecipeDetails({ params }) {
-    console.log(params);
+function RecipeDetails() {
     return (
         <>
             <MainRecipe />
